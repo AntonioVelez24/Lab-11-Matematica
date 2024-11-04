@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ObstacleControl : MonoBehaviour
 {
-    [SerializeField] private GameObject highPipePrefab;
-    [SerializeField] private GameObject lowPipePrefab;
     [SerializeField] private float speed;
     // Start is called before the first frame update
     void Start()
